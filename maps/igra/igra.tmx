@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="75">
+ <editorsettings>
+  <export target="../../igra.js" format="js"/>
+ </editorsettings>
+ <tileset firstgid="1" name="kjhjghzggh" tilewidth="32" tileheight="32" tilecount="24" columns="6">
+  <image source="pics/1_Industrial_Tileset_1B.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="25" name="pozadina" tilewidth="32" tileheight="32" tilecount="9" columns="3">
+  <image source="pics/2_Industrial_Tileset_1C_Background_Violet.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="34" name="2_Industrial_Tileset_1_Background" tilewidth="32" tileheight="32" tilecount="24" columns="6">
+  <image source="pics/2_Industrial_Tileset_1_Background.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="58" name="grass_dirt_water" tilewidth="32" tileheight="32" tilecount="192" columns="12">
+  <image source="pics/grass_dirt_water.png" width="384" height="512"/>
+ </tileset>
+ <tileset firstgid="250" name="block_07" tilewidth="32" tileheight="32" tilecount="4" columns="2">
+  <image source="pics/block_07.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="254" name="grass_dirt_water" tilewidth="64" tileheight="64" tilecount="48" columns="6">
+  <image source="pics/grass_dirt_water.png" width="384" height="512"/>
+ </tileset>
+ <tileset firstgid="302" name="sokoban_spritesheet" tilewidth="32" tileheight="32" tilecount="324" columns="18">
+  <image source="pics/sokoban_spritesheet.png" width="600" height="598"/>
+ </tileset>
+ <tileset firstgid="626" name="world_tileset" tilewidth="64" tileheight="64" tilecount="16" columns="4">
+  <image source="pics/world_tileset.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="642" name="world_tileset" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="pics/world_tileset.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="898" name="blue_guy" tilewidth="32" tileheight="32" tilecount="6" columns="2">
+  <image source="pics/blue_guy.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="904" name="Dude_Monster_Attack1_4" tilewidth="32" tileheight="32" tilecount="4" columns="4">
+  <image source="pics/Dude_Monster_Attack1_4.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="908" name="neprijatelj" tilewidth="32" tileheight="32" tilecount="11" columns="11">
+  <image source="pics/neprijatelj.png" width="352" height="32"/>
+ </tileset>
+ <tileset firstgid="919" name="Idle" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="pics/Idle.png" width="54" height="52"/>
+ </tileset>
+ <tileset firstgid="920" name="On (16x32)" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="pics/On (16x32).png" width="48" height="32"/>
+ </tileset>
+ <tileset firstgid="921" name="Hit" tilewidth="32" tileheight="32" tilecount="5" columns="5">
+  <image source="pics/Hit.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="926" name="s" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="pics/s.png" width="38" height="38"/>
+ </tileset>
+ <tileset firstgid="927" name="tileset2" tilewidth="32" tileheight="32" tilecount="1536" columns="32">
+  <image source="pics/tileset2.png" width="1024" height="1536"/>
+ </tileset>
+ <tileset firstgid="2463" name="All_Fire_Bullet_Pixel_16x16" tilewidth="32" tileheight="32" tilecount="240" columns="20">
+  <image source="pics/All_Fire_Bullet_Pixel_16x16.png" width="640" height="400"/>
+ </tileset>
+ <tileset firstgid="2703" name="coin2" tilewidth="32" tileheight="32" tilecount="9" columns="3">
+  <image source="pics/coin2.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="2712" name="grass_dirt_water" tilewidth="16" tileheight="16" tilecount="768" columns="24">
+  <image source="pics/grass_dirt_water.png" width="384" height="512"/>
+ </tileset>
+ <layer id="1" name="pozadina" width="30" height="20">
+  <data encoding="csv">
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,944,945,946,947,948,949,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,928,929,930,931,932,933,129,129,976,977,978,979,980,981,129,129,129,129,129,129,129,129,129,129,
+963,964,965,129,129,129,960,961,962,963,964,965,129,129,1008,1009,1010,1011,1012,1013,129,976,977,978,979,129,129,129,129,129,
+995,996,997,129,129,129,992,993,994,995,996,997,129,129,1040,1041,1042,1043,1044,1045,129,1008,1009,1003,1011,1012,129,129,129,129,
+1027,1028,1029,129,129,129,1024,1025,1026,1027,1028,1029,129,129,129,129,129,129,129,129,129,1040,1041,1041,1041,1044,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,
+129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129
+</data>
+ </layer>
+ <layer id="2" name="platforme" width="30" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+252,252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,352,352,352,
+0,0,252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,352,352,352,352,352,352,352,352,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1176,1177,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,352,0,0,352,0,0,0,1240,1209,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,352,352,0,0,352,352,0,0,1272,1273,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,352,352,352,0,0,352,352,352,0,1368,1305,
+253,251,251,252,252,253,252,253,252,253,252,253,252,252,253,252,252,253,252,252,252,251,250,250,252,252,250,250,250,251,
+252,253,253,252,253,252,253,253,252,252,252,252,252,253,253,252,253,253,253,253,251,252,252,253,251,252,253,253,252,251,
+252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,
+252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252
+</data>
+ </layer>
+ <objectgroup id="3" name="items" offsetx="0.909565" offsety="0.909565">
+  <properties>
+   <property name="class" value="items"/>
+  </properties>
+  <object id="19" name="vatra" gid="920" x="704.375" y="511.713" width="32" height="32">
+   <properties>
+    <property name="class" value="vatra"/>
+   </properties>
+  </object>
+  <object id="25" name="gljiva" gid="925" x="254.141" y="383.464" width="32" height="32">
+   <properties>
+    <property name="class" value="gljiva"/>
+   </properties>
+  </object>
+  <object id="32" name="kotac" gid="926" x="-2.35653" y="478.059" width="32" height="32">
+   <properties>
+    <property name="class" value="kotac"/>
+   </properties>
+  </object>
+  <object id="49" name="coin" gid="2707" x="352.374" y="379.826" width="32" height="32">
+   <properties>
+    <property name="class" value="coin"/>
+   </properties>
+  </object>
+  <object id="62" name="podloga" gid="855" x="545.273" y="508.342" width="32" height="16">
+   <properties>
+    <property name="class " value="podloga"/>
+   </properties>
+  </object>
+  <object id="65" name="neprijatelj" gid="909" x="542.473" y="317.975" width="32" height="32">
+   <properties>
+    <property name="class" value="neprijatelj"/>
+   </properties>
+  </object>
+  <object id="67" name="projektil" gid="2598" x="94.0573" y="224.29" width="32" height="32">
+   <properties>
+    <property name="class" value="projektil"/>
+   </properties>
+  </object>
+  <object id="71" name="kocka" gid="316" x="254.424" y="415.09" width="32" height="32"/>
+  <object id="74" name="kocka2" gid="602" x="318.424" y="415.09" width="32" height="32"/>
+ </objectgroup>
+ <layer id="4" name="mario" width="30" height="20">
+  <properties>
+   <property name="class" value="mario"/>
+  </properties>
+  <data encoding="csv">
+902,902,902,902,900,900,900,900,898,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
